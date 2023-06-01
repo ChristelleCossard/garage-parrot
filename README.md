@@ -5,7 +5,8 @@ https://le-quai-anthique.cocoweb10.fr/
 ![Le logo](https://github.com/ChristelleCossard/restococo/blob/main/images/logo-quai-antique.jpg)
 
 ## Le lien vers votre logiciel de gestion de projet pour cet ECF Trello :
-https://trello.com/invite/b/DaA1y93k/ATTI68077e5af5350f99536b49840fc35a1eC93AAB80/ecf-ete-2023-restaurant
+https://trello.com/b/e3DA7Ksq
+
 
 ## Un projet php
 
