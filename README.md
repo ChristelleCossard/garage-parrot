@@ -1,8 +1,8 @@
-<h1>"Le quai Anthique": Projet de création d'un site d'un restaurant virtuel - Projet pour ECF Studi été 2023.</h1>
+<h1>"Garage Parrot": Projet de création d'un site d'un garage virtuel - Projet pour ECF Studi Hivers 2023.</h1>
 
 ## Le lien de la version en ligne de l’application web :
-https://le-quai-anthique.cocoweb10.fr/
-![Le logo](https://github.com/ChristelleCossard/restococo/blob/main/images/logo-quai-antique.jpg)
+https://garage-parrot.cocoweb10.fr
+![Le logo](https://)
 
 ## Le lien vers votre logiciel de gestion de projet pour cet ECF Trello :
 https://trello.com/b/e3DA7Ksq
@@ -12,9 +12,9 @@ https://trello.com/b/e3DA7Ksq
 
 ## Documents complémentaires joints au projet
 
-+ [1-cocoresto.sql](https://github.com/ChristelleCossard/restococo/blob/main/cocoresto.sql)
++ [1-.sql](https://)
 
-+ [2-Copie à rendre.pdf](https://github.com/ChristelleCossard/restococo/blob/main/00-Documents-complementaires/ECF_GraduateDeveloppeur_Juillet2023_copiearendre_COSSARD_Christelle.pdf)
++ [2-Copie à rendre.pdf](https://)
 
 
 
