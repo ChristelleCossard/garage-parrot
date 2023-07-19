@@ -1,6 +1,8 @@
-<?php
-  require_once('templates/header.php');
-  ?>
+<?php 
+require_once __DIR__ . "/lib/config.php";
+require_once __DIR__ . "/lib/menu.php"; 
+require_once __DIR__ . "/templates/header.php"; 
+?>
      
   
     <!-- Content -->
@@ -231,6 +233,4 @@
             
     </section>
    
-    <?php
-require_once('templates/footer.php');
-?> 
+    <?php require_once __DIR__ . "/templates/footer.php"; ?>
