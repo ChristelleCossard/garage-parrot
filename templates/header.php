@@ -42,9 +42,11 @@ require_once __DIR__ . "/../lib/session.php";
 
             <div class="col-md-3 text-end">
                 <?php if (isset($_SESSION["user"])) { ?>
+                    <a href="/admin/" class="btn btn-primary">Admin</a>
                     <a href="logout.php" class="btn btn-primary">Déconnexion</a>
                 <?php } else { ?>
                     <a href="login.php" class="btn btn-outline-primary me-2">Connexion</a>
+                    <a href="inscription.php" class="btn btn-primary">Inscription</a>
                 <?php } ?>
                 
             </div>

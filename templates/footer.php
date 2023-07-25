@@ -2,20 +2,47 @@
 
 <hr>
 <footer>
-        <div class="container-fluid">
-        <div class="d-flex justify-content-center">
-                    <div class="col-2">
-               <h2 align="center"> Nos horaires d'ouvertures:</h2>
+<h2 align="center"> Nos horaires d'ouvertures:</h2>
                <br>
-               <h3>Lundi:Fermé</h3>
-               <h3>Mardi:</h3><p>12:00 - 14:00</p><p>19:00 - 22:00</p>
-               <h3>Mercredi:</h3><p>12:00 - 14:00</p><p>19:00 - 22:00</p>
-               <h3>Jeudi:</h3><p>12:00 - 14:00</p><p>19:00 - 22:00</p>
-               <h3>Vendredi:</h3><p>12:00 - 14:00</p><p>19:00 - 22:00</p>
-              <h3>Samedi:</h3><p>12:00 - 14:00</p><p>19:00 - 22:00</p>
-               <h3>Dimanche:</h3><p>12:00 - 14:00</p><p>19:00 - 22:00</p>
-               <hr> 
-            </div></div>
+<table class="table table-hover table-dark">
+  <thead>
+    <tr>
+      <th scope="col">JOUR</th>
+      <th scope="col"><h3>Lundi</h3></th>
+      <th scope="col"><h3>Mardi</h3></th>
+      <th scope="col"><h3>Mercredi</h3></th>
+      <th scope="col"><h3>Jeudi</h3></th>
+      <th scope="col"><h3>Vendredi</h3></th>
+      <th scope="col"><h3>Samedi</h3></th>
+      <th scope="col"><h3>Dimanche</h3></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">Matin</th>
+      <td>FERME</td>
+      <td></td>
+      <td>12:00 - 14:00</td>
+      <td>12:00 - 14:00</td>
+      <td>12:00 - 14:00</td>
+      <td>12:00 - 14:00</td>
+      <td>12:00 - 14:00</td>
+    </tr>
+    <tr>
+      <th scope="row">Après-midi</th>
+      <td>FERME</td>
+      <td>12:00 - 14:00</td>
+      <<td>12:00 - 14:00</td>
+      <td>12:00 - 14:00</td>
+      <td>12:00 - 14:00</td>
+      <td>12:00 - 14:00</td>
+      <td>12:00 - 14:00</td>
+    </tr>
+    <tr>
+    
+  </tbody>
+</table>
+
            
             <div class="row footer">
                 <div class="d-flex justify-content-center">
