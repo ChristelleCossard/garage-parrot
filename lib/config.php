@@ -1,9 +1,12 @@
 <?php
 
 define("_DOMAIN_", ".techtrendzstudi.local");
-define("_DB_SERVER_", "mysql-cocoweb10.alwaysdata.net");
-define("_DB_NAME_", "cocoweb10_studitech");
-define("_DB_USER_", "cocoweb10");
+//define("_DB_SERVER_", "mysql-cocoweb10.alwaysdata.net");
+//define("_DB_NAME_", "cocoweb10_studitech");
+//define("_DB_USER_", "cocoweb10");
+define("_DB_SERVER_", "mysql-cocodev.alwaysdata.net");
+define("_DB_NAME_", "cocodev_garage");
+define("_DB_USER_", "cocodev");
 define("_DB_PASSWORD_", "Vicky.10");
 define("_ASSETS_IMAGES_FOLDER_", "/assets/images/");
 define("_ARTICLES_IMAGES_FOLDER_", "/uploads/articles/");
