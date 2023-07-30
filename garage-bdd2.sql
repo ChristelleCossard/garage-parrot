@@ -15,9 +15,9 @@ CREATE TABLE IF NOT EXISTS `cars` (
   `category_id` int(11) NOT NULL,
   `title` varchar(255) NOT NULL,
   `mileage` int(11) NOT NULL,
-  `releaseyear` date(255) NOT NULL,
-  `price` float(255) NOT NULL,
-  `content` text NOT NULL,
+  `releaseyear` date NOT NULL,
+  `price` float NOT NULL,
+  `description` text NOT NULL,
   `image` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`id`),
   KEY `category_id` (`category_id`)
@@ -29,7 +29,7 @@ CREATE TABLE IF NOT EXISTS `cars` (
 -- Déchargement des données de la table `cars`
 --
 
-INSERT INTO `cars` (`id`, `category_id`, `title`, `mileage`, `releaseyear` , `price`, `content`, `image`) VALUES
+INSERT INTO `cars` (`id`, `category_id`, `title`, `mileage`, `releaseyear` , `price`, `description`, `image`) VALUES
 (1, 1, 'car 1', 120000, 2013, 10200, 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, amet. Cum labore possimus ad vitae minima nesciunt commodi eos.', NULL),
 (2, 1, 'Article 2', 120000, 2013, 10200, 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, amet. Cum labore possimus ad vitae minima nesciunt commodi eos.', NULL),
 (3, 1, 'Article 3', 120000, 2013, 10200, 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, amet. Cum labore possimus ad vitae minima nesciunt commodi eos.', NULL),
