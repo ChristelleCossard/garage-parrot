@@ -2,6 +2,7 @@
 $adminMenu = [
     'index.php' => 'Accueil',
     'articles.php' => 'Articles',
+    'cars.php' => 'Véhicules',
 ];
 ?>
 
