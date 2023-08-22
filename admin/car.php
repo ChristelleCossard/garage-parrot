@@ -128,8 +128,8 @@ if (isset($_POST['saveCar'])) {
             <input type="text" class="form-control" id="title" name="title" value="<?= $car['title']; ?>">
         </div>
         <div class="mb-3">
-            <label for="content" class="form-label">Contenu</label>
-            <textarea class="form-control" id="content" name="content" rows="8"><?= $car['description']; ?></textarea>
+            <label for="description" class="form-label">Contenu</label>
+            <textarea class="form-control" id="description" name="description" rows="8"><?= $car['description']; ?></textarea>
         </div>
         <div class="mb-3">
             <label for="category" class="form-label">Catégorie</label>
