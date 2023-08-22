@@ -8,7 +8,7 @@
         <div class="card-body">
             <h5 class="card-title"><?= htmlentities($car["title"]) ?></h5>
             <p class="card-text"><?=htmlentities(substr($car["description"], 0, 100)) ?></p>
-            <a href="actualite.php?id=<?=$car["id"]?>" class="btn btn-primary">Lire la suite</a>
+            <a href="vehicule.php?id=<?=$car["id"]?>" class="btn btn-primary">Lire la suite</a>
         </div>
     </div>
 </div>
