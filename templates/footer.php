@@ -60,6 +60,7 @@
                     <div class="col-2">
                         <ul class="list-unstyled text-center">
                             <li><a class="nav-link" href="legal.php">Mentions légales</a></li>
+                            <li><a class="nav-link" href="https://github.com/ChristelleCossard/garage-parrot" target="_blank">GITHUB du projet</a></li>
                         <!--   -->
                 
                       </ul>

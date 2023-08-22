@@ -5,23 +5,24 @@ adminOnly();
 
 require_once __DIR__ . "/../lib/pdo.php";
 require_once __DIR__ . "/../lib/tools.php";
-require_once __DIR__ . "/../lib/article.php";
+//require_once __DIR__ . "/../lib/article.php";
+require_once __DIR__ . "/../lib/car.php";
 require_once __DIR__ . "/templates/header.php";
 
-$article = false;
+$car = false;
 $errors = [];
 $messages = [];
 if (isset($_GET["id"])) {
-    $article =  getArticleById($pdo, (int)$_GET["id"]);
+    $car =  getCarById($pdo, (int)$_GET["id"]);
 }
-if ($article) {
-    if (deleteArticle($pdo, $_GET["id"])) {
-        $messages[] = "L'article a bien été supprimé";
+if ($car) {
+    if (deleteCar($pdo, $_GET["id"])) {
+        $messages[] = "Le véhicule a bien été supprimé";
     } else {
         $errors[] = "Une erreur s'est produite lors de la suppression";
     }
 } else {
-    $errors[] = "L'article n'existe pas";
+    $errors[] = "Le véhicule n'existe pas";
 }
 ?>
 <div class="row text-center my-5">

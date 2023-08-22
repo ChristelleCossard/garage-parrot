@@ -2,7 +2,8 @@
 require_once __DIR__ . "/templates/header.php";
 
 require_once __DIR__ . "/../lib/pdo.php";
-require_once __DIR__ . "/../lib/article.php";
+//require_once __DIR__ . "/../lib/article.php";
+require_once __DIR__ . "/../lib/car.php";
 
 if (isset($_GET["page"])) {
     $page = (int)$_GET["page"];
@@ -10,16 +11,16 @@ if (isset($_GET["page"])) {
     $page = 1;
 }
 
-$articles = getArticles($pdo, _ADMIN_ITEM_PER_PAGE, $page);
+$cars = getCars($pdo, _ADMIN_ITEM_PER_PAGE, $page);
 
-$totalArticles = getTotalArticle($pdo);
+$totalCars = getTotalCar($pdo);
 
 // 55/10 => 5.5 => 6
 //$totalPages =4;
-$totalPages = ceil($totalArticles / _ADMIN_ITEM_PER_PAGE);
+$totalPages = ceil($totalCars / _ADMIN_ITEM_PER_PAGE);
 ?>
 
-<h1 class="py-5">Liste des articles</h1>
+<h1 class="py-5">Liste des véhicules</h1>
 
 <table class="table">
     <thead>
@@ -30,10 +31,10 @@ $totalPages = ceil($totalArticles / _ADMIN_ITEM_PER_PAGE);
         </tr>
     </thead>
     <tbody>
-        <?php foreach ($articles as $article) { ?>
+        <?php foreach ($cars as $car) { ?>
             <tr>
-                <th scope="row"><?=$article["id"] ?></th>
-                <td><?=$article["title"] ?></td>
+                <th scope="row"><?=$car["id"] ?></th>
+                <td><?=$car["title"] ?></td>
                 <td>Modifier | Supprimer</td>
             </tr>
         <?php } ?>

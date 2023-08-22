@@ -90,10 +90,10 @@ if (isset($_POST['saveCar'])) {
             $id = null;
         }
         // On passe toutes les données à la fonction saveArticle
-        $res = saveArticle($pdo, $_POST["title"], $_POST["description"], $fileName, (int)$_POST["category_id"], $id);
+        $res = saveCar($pdo, $_POST["title"], $_POST["description"], $fileName, (int)$_POST["category_id"], $id);
 
         if ($res) {
-            $messages[] = "L'article a bien été sauvegardé";
+            $messages[] = "Le véhicule a bien été sauvegardé";
             //On vide le tableau article pour avoir les champs de formulaire vides
             if (!isset($_GET["id"])) {
                 $car = [
@@ -103,7 +103,7 @@ if (isset($_POST['saveCar'])) {
                 ];
             }
         } else {
-            $errors[] = "La voiture n'a pas été sauvegardé";
+            $errors[] = "La voiture n'a pas été sauvegardée";
         }
     }
 }
@@ -121,7 +121,7 @@ if (isset($_POST['saveCar'])) {
         <?= $error; ?>
     </div>
 <?php } ?>
-<?php if ($article !== false) { ?>
+<?php if ($car !== false) { ?>
     <form method="POST" enctype="multipart/form-data">
         <div class="mb-3">
             <label for="title" class="form-label">Titre</label>
