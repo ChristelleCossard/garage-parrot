@@ -3,7 +3,7 @@
 ## Le lien de la version en ligne de l’application web :
 https://garage-parrot.cocoweb10.fr
 https://cocodev.alwaysdata.net/garage-parrot/
-![Le logo](https://)
+![Le logo](https://github.com/ChristelleCossard/garage-parrot/blob/main/assets/images/logo1.PNG)
 
 ## Le lien vers votre logiciel de gestion de projet pour cet ECF Trello :
 https://trello.com/b/e3DA7Ksq
