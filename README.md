@@ -1,7 +1,7 @@
 <h1>"Garage Parrot": Projet de création d'un site d'un garage virtuel - Projet pour ECF Studi Hivers 2023.</h1>
 
 ## Le lien de la version en ligne de l’application web :
-https://garage-parrot.cocoweb10.fr
+https://garage-parrot.cocoweb10.fr <hr>
 https://cocodev.alwaysdata.net/garage-parrot/
 ![Le logo](https://github.com/ChristelleCossard/garage-parrot/blob/main/assets/images/logo1.PNG)
 
