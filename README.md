@@ -21,7 +21,7 @@ https://trello.com/b/e3DA7Ksq
 
 ### Déployez en local et en ligne
 
-Clonez ce repository et placer le projet à la racine du serveur; importez le fichier cocoresto.sql dans votre serveur de base de données.Modifiez le fichier lib/pdo.php selon vos identifiants de connection à votre serveur.
+Clonez ce repository et placer le projet à la racine du serveur; importez le fichier garage.sql dans votre serveur de base de données.Modifiez le fichier lib/pdo.php selon vos identifiants de connection à votre serveur.
 
 ### code d'authentification:
 
