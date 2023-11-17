@@ -26,11 +26,11 @@ Clonez ce repository et placer le projet à la racine du serveur; importez le fi
 ### code d'authentification:
 
 --> pour l'admin:
-login: admin@coco.com
-mdp:boubouadmin
+login: admin@test.com
+mdp:test
 
 --> pour un client:
-login: coco@coco.com
-mdp: boubou2admin
+login: user@test.com
+mdp: test
 
 
