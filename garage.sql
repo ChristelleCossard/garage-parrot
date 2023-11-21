@@ -1,11 +1,3 @@
--- phpMyAdmin SQL Dump
--- version 5.2.1
--- https://www.phpmyadmin.net/
---
--- Host: mysql-cocodev.alwaysdata.net
--- Generation Time: Nov 21, 2023 at 06:37 AM
--- Server version: 10.6.14-MariaDB
--- PHP Version: 7.4.33
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -17,13 +9,6 @@ SET time_zone = "+00:00";
 /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
 /*!40101 SET NAMES utf8mb4 */;
 
---
--- Database: `cocodev_garage`
---
-CREATE DATABASE IF NOT EXISTS `cocodev_garage` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
-USE `cocodev_garage`;
-
--- --------------------------------------------------------
 
 --
 -- Table structure for table `articles`
@@ -203,6 +188,26 @@ INSERT INTO `categories` (`id`, `name`) VALUES
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `horaires`
+--
+
+CREATE TABLE `horaires` (
+  `id` int(11) NOT NULL,
+  `jour` varchar(50) DEFAULT NULL,
+  `matin` varchar(50) DEFAULT NULL,
+  `apresmidi` varchar(50) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `horaires`
+--
+
+INSERT INTO `horaires` (`id`, `jour`, `matin`, `apresmidi`) VALUES
+(1, 'lundi', '9h-12h', '13h30-17h30');
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `users`
 --
 
@@ -271,6 +276,12 @@ ALTER TABLE `carsImage`
 -- Indexes for table `categories`
 --
 ALTER TABLE `categories`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `horaires`
+--
+ALTER TABLE `horaires`
   ADD PRIMARY KEY (`id`);
 
 --
