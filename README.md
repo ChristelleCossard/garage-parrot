@@ -15,7 +15,7 @@ https://trello.com/b/e3DA7Ksq
 
 + [1-garage.sql](https://)
 
-+ [2-Copie à rendre.pdf](https://)
++ [2-Copie à rendre.pdf](https://github.com/ChristelleCossard/garage-parrot/blob/main/00-Documents-complementaires/ECF_GraduateDeveloppeur_HIVERS2023_copiearendre_COSSARD_Christelle.pdf)
 
 
 
