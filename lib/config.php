@@ -1,10 +1,8 @@
 <?php
 
 define("_DOMAIN_", ".techtrendzstudi.local");
-//define("_DB_SERVER_", "mysql-cocoweb10.alwaysdata.net");
-//define("_DB_NAME_", "cocoweb10_studitech");
-//define("_DB_USER_", "cocoweb10");
-define("_DB_SERVER_", "mysql-cocodev.alwaysdata.net");
+
+define("_DB_SERVER_", "mysql-cocodev.alwaysdata.net/garage-parrot/");
 define("_DB_NAME_", "cocodev_garage");
 define("_DB_USER_", "cocodev");
 define("_DB_PASSWORD_", "Vicky.10");

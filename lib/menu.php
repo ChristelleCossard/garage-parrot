@@ -6,8 +6,8 @@ $mainMenu = [
     "a_propos.php" => ["menu_title" => "A propos", "head_title" => "A propos", "meta_description" => "L'histoire du site TechTrendz"],
     'contact.php' => ["menu_title" => "contact", "head_title" => "A propos ", "meta_description" => "L'histoire du site TechTrendz"],
     "page2.php" => ["menu_title" => "Page2", "head_title" => "page2 ", "meta_description" => "Une page tests"],
-    "login.php" => ["menu_title" => "Connexion", "head_title" => "Connexion TechTrendz", "meta_description" => "Connexion TechTrendz", "exclude" => true],
-    "inscription.php" => ["menu_title" => "Connexion", "head_title" => "Connexion TechTrendz", "meta_description" => "Inscription TechTrendz", "exclude" => true],
+    "login.php" => ["menu_title" => "Connexion", "head_title" => "Connexion TechTrendz", "meta_description" => "Connexion ", "exclude" => true],
+    "inscription.php" => ["menu_title" => "Connexion", "head_title" => "Connexion TechTrendz", "meta_description" => "Inscription ", "exclude" => true],
     "legal.php" => ["menu_title" => "Mentions legales", "head_title" => "Mentions legales", "meta_description" => "Mensions legales", "exclude" => true],
 
 ];
